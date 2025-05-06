@@ -1,0 +1,6 @@
+#video-banner video {
+    max-height: 500px; /* Define uma altura máxima, ajuste conforme necessário */
+    object-fit: cover; /* Ajusta como o vídeo se encaixa no espaço */
+  }
+
+  
