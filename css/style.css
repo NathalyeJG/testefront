@@ -66,8 +66,8 @@
 }
 
 .icon-circle {
-  background-color: #e2bdce;
-  color: white;
+  background-color: #f5e9ee;
+  color: rgb(104, 87, 165);
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -125,7 +125,7 @@
   width: 100%; /* Ocupa toda a largura do card */
   
   display: flex; /* Utiliza Flexbox para centralizar o conteúdo */
-  align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+  align-items: end; /* Alinha o conteúdo verticalmente ao centro */
   justify-content: center ; /* Alinha o conteúdo horizontalmente ao centro */
   text-align: center ; /* Centraliza o texto */
   color: rgba(251, 247, 247, 0.991); /* Cor do texto */
@@ -146,7 +146,7 @@
 
 .text-cards-img a {
   text-decoration: none;
-  color: #7070c3; /* Substitua pela cor desejada */
+  color: #5e5ed8; /* Substitua pela cor desejada */
 }
 
 .text-cards-img a:hover {
@@ -164,4 +164,90 @@
 .textpe{
   text-align: center;
 }
+
+/*////////////////////////////////////////////////PERGUNTAS E RESPOSTAS//////////////////////////////////////////////*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e5f3ff;
+  color: #333;
+}
+
+.faq-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-header {
+  text-align: center;
+}
+
+.faq-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.faq-image {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.faq-questions {
+  margin-top: 20px;
+}
+
+details {
+  border-bottom: 1px solid #999;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+summary {
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary::marker {
+  color: #333;
+}
+
+details p {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.faq-footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.faq-footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.faq-footer a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.faq-footer a:hover {
+  text-decoration: underline;
+}
+
+.faq-section{
+
+  background-color: lch(70.43% 21.28 242.78);
+
+
+}
+
   
