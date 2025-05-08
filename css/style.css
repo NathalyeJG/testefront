@@ -2,5 +2,166 @@
     max-height: 500px; /* Define uma altura máxima, ajuste conforme necessário */
     object-fit: cover; /* Ajusta como o vídeo se encaixa no espaço */
   }
+  
+  /* Estilos personalizados para a nave bar */
+.navbar-custom {
+  background-color: #9ba5e0; /* azul bebe */
+  border-bottom: 2px solid #0c7077; /* Detalhe em verde*/
+}
 
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #5432cf;
+}
+
+.nav-link {
+  color:  #5432cf;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #5432cf;
+}
+
+.btn-custom {
+  background-color: #5432cf
+  color: #fff;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #fff;
+  color:#5432cf
+  
+}
+  
+.side-by-side-benefits {
+  background-color: lch(70.43% 21.28 242.78);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 2px solid #0c7077; /* Detalhe em verde*/
+}
+
+.side-by-side-benefits .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  border-bottom: 2px solid #0c7077; /* Detalhe em verde*/
+}
+
+.benefit-box {
+  flex: 1 1 220px;
+  max-width: 260px;
+  margin: 20px auto;
+}
+
+.icon-circle {
+  background-color: #e2bdce;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0 auto 15px;
+}
+
+.benefit-box h3 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.benefit-box p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  
+}
+
+/* ==================== CARDS de imagens ==================== */
+/* Layout dos cards (lado a lado) */
+.display-cards-de-imagem {
+  display: grid; /* Utiliza Grid Layout para organizar os elementos filhos */
+  grid-template-columns: repeat(3, 1fr); /* Cria duas colunas de tamanho igual */
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 40px 80px; /* Espaçamento interno: 40px no topo/baixo e 80px nas laterais */
+  justify-content: center; /* Centraliza o grid dentro do contêiner pai */
+}
+
+.image-card {
+  position: relative; /* Permite posicionar elementos filhos de forma absoluta dentro do card */
+  overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do card */
+  border-radius: 20px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra suave ao redor do card */
+  height: 200px; /* Altura fixa para os cards */
+}
+
+.image-card img {
+  width: 100%; /* A imagem ocupa toda a largura do card */
+  height: 100%; /* A imagem ocupa toda a altura do card */
+  object-fit: cover; /* Redimensiona e corta a imagem para preencher o card sem distorcer */
+  display: block; /* Remove espaçamento extra abaixo da imagem */
+  border-radius: 20px; /* Bordas arredondadas igual ao card */
+}
+
+/* Sobreposição ocupa toda a imagem */
+.text-cards-img {
+  position: absolute; /* Posicionamento absoluto dentro do card */
+  top: 0; /* Alinha ao topo */
+  left: 0; /* Alinha à esquerda */
+  height: 100%; /* Ocupa toda a altura do card */
+  width: 100%; /* Ocupa toda a largura do card */
+  
+  display: flex; /* Utiliza Flexbox para centralizar o conteúdo */
+  align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+  justify-content: center ; /* Alinha o conteúdo horizontalmente ao centro */
+  text-align: center ; /* Centraliza o texto */
+  color: rgba(251, 247, 247, 0.991); /* Cor do texto */
+  border-radius: 20px; /* Bordas arredondadas para coincidir com o card */
+}
+
+.text-cards-img:hover {
+  background: rgba(14, 43, 59, 0.4); /* Aplica uma camada escura semi-transparente quando o mouse passa */
+  transition: background-color 0.3s ease; /* Transição suave da mudança de fundo */
+}
+
+.text-cards-img h4 {
+  font-family: popins;
+  font-size: 1.2rem; /* Tamanho da fonte do título */
+  margin: 0; /* Remove margem padrão */
+  padding: 0 10px; /* Espaçamento horizontal interno para o texto */
+}
+
+.text-cards-img a {
+  text-decoration: none;
+  color: #7070c3; /* Substitua pela cor desejada */
+}
+
+.text-cards-img a:hover {
+  text-decoration: underline;
+  color: #f3f4f8; /* Cor ao passar o mouse */
+}
+
+
+.rodape {
+
+  background-color: #9ba5e0;
+
+}
+
+.textpe{
+  text-align: center;
+}
   
