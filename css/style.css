@@ -1,4 +1,5 @@
 #video-banner video {
+  border-bottom: 2px solid #0c7077; /* Detalhe em verde*/
     max-height: 500px; /* Define uma altura máxima, ajuste conforme necessário */
     object-fit: cover; /* Ajusta como o vídeo se encaixa no espaço */
   }
@@ -146,7 +147,7 @@
 
 .text-cards-img a {
   text-decoration: none;
-  color: #5e5ed8; /* Substitua pela cor desejada */
+  color: #9494af; 
 }
 
 .text-cards-img a:hover {
@@ -176,19 +177,20 @@ body {
 }
 
 .faq-section {
-  max-width: 900px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 20px;
 }
 
 .faq-header {
   text-align: center;
+  
 }
 
 .faq-header h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #fcf8f8;
   margin-bottom: 20px;
 }
 
@@ -212,6 +214,8 @@ summary {
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
+  
+  
 }
 
 summary::marker {
@@ -221,7 +225,7 @@ summary::marker {
 details p {
   margin: 10px 0;
   font-size: 0.95rem;
-  color: #666;
+  color: #363535;
 }
 
 .faq-footer {
@@ -248,6 +252,74 @@ details p {
   background-color: lch(70.43% 21.28 242.78);
 
 
+}
+/*////////////////////////////////////////////SEGURANÇA//////////////////////////////////////////////////////////////////////*/
+
+.safety-section {
+  text-align: center;
+  padding: 2rem;
+  /* background-color: #f9fafb; */
+  transition: background-color 0.3s ease; Transição suave da mudança de fundo
+
+}
+
+
+.safety-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #312c2c;
+}
+
+.safety-section .intro-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tip {
+  background: rgb(185, 211, 230);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 300px;
+  text-align: left;
+}
+
+.tip .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4CAF50;
+
+  /* Centralização */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Altura ajustável conforme necessário */
+  width: 60px;  /* Largura ajustável conforme necessário */
+  margin: 0 auto; /* Centraliza horizontalmente dentro do pai */
+}
+
+  
+
+
+.tip h3 {
+  font-size: 1.25rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.tip p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
 }
 
   
